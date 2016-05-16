@@ -2,7 +2,7 @@
 //  MasterViewController.m
 //  CalorieIntake
 //
-//  Created by Kevin Lee on 5/9/16.
+//  Created by Kevin Lee on 5/15/16.
 //  Copyright (c) 2016 KevinLee. All rights reserved.
 //
 

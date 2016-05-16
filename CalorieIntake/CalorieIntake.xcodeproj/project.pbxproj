@@ -18,10 +18,10 @@
 		D5BEA6421CE0BABC00723382 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BEA6211CE0BABC00723382 /* Cocoa.framework */; };
 		D5BEA64A1CE0BABC00723382 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5BEA6481CE0BABC00723382 /* InfoPlist.strings */; };
 		D5BEA64C1CE0BABC00723382 /* CalorieIntakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BEA64B1CE0BABC00723382 /* CalorieIntakeTests.m */; };
-		D5BEA6581CE0BB9600723382 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BEA6561CE0BB9600723382 /* MasterViewController.m */; };
-		D5BEA6591CE0BB9600723382 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5BEA6571CE0BB9600723382 /* MasterViewController.xib */; };
 		D5BEA6661CE0BEBF00723382 /* TypesOfParticipentsData.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BEA6651CE0BEBF00723382 /* TypesOfParticipentsData.m */; };
 		D5BEA6691CE0BEF800723382 /* TypesOfParticipentsDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BEA6681CE0BEF800723382 /* TypesOfParticipentsDoc.m */; };
+		D5E49C9B1CE92F2000E04F7A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E49C991CE92F2000E04F7A /* MasterViewController.m */; };
+		D5E49C9C1CE92F2000E04F7A /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E49C9A1CE92F2000E04F7A /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +54,13 @@
 		D5BEA6471CE0BABC00723382 /* CalorieIntakeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalorieIntakeTests-Info.plist"; sourceTree = "<group>"; };
 		D5BEA6491CE0BABC00723382 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5BEA64B1CE0BABC00723382 /* CalorieIntakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalorieIntakeTests.m; sourceTree = "<group>"; };
-		D5BEA6551CE0BB9600723382 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		D5BEA6561CE0BB9600723382 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		D5BEA6571CE0BB9600723382 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 		D5BEA6641CE0BEBF00723382 /* TypesOfParticipentsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypesOfParticipentsData.h; sourceTree = "<group>"; };
 		D5BEA6651CE0BEBF00723382 /* TypesOfParticipentsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypesOfParticipentsData.m; sourceTree = "<group>"; };
 		D5BEA6671CE0BEF700723382 /* TypesOfParticipentsDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypesOfParticipentsDoc.h; sourceTree = "<group>"; };
 		D5BEA6681CE0BEF800723382 /* TypesOfParticipentsDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypesOfParticipentsDoc.m; sourceTree = "<group>"; };
+		D5E49C981CE92F2000E04F7A /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D5E49C991CE92F2000E04F7A /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D5E49C9A1CE92F2000E04F7A /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,9 +133,9 @@
 				D5BEA6361CE0BABC00723382 /* MainMenu.xib */,
 				D5BEA6391CE0BABC00723382 /* Images.xcassets */,
 				D5BEA6281CE0BABC00723382 /* Supporting Files */,
-				D5BEA6551CE0BB9600723382 /* MasterViewController.h */,
-				D5BEA6561CE0BB9600723382 /* MasterViewController.m */,
-				D5BEA6571CE0BB9600723382 /* MasterViewController.xib */,
+				D5E49C981CE92F2000E04F7A /* MasterViewController.h */,
+				D5E49C991CE92F2000E04F7A /* MasterViewController.m */,
+				D5E49C9A1CE92F2000E04F7A /* MasterViewController.xib */,
 			);
 			path = CalorieIntake;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5BEA6591CE0BB9600723382 /* MasterViewController.xib in Resources */,
+				D5E49C9C1CE92F2000E04F7A /* MasterViewController.xib in Resources */,
 				D5BEA62C1CE0BABC00723382 /* InfoPlist.strings in Resources */,
 				D5BEA63A1CE0BABC00723382 /* Images.xcassets in Resources */,
 				D5BEA6321CE0BABC00723382 /* Credits.rtf in Resources */,
@@ -288,8 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5BEA6351CE0BABC00723382 /* AppDelegate.m in Sources */,
-				D5BEA6581CE0BB9600723382 /* MasterViewController.m in Sources */,
 				D5BEA6691CE0BEF800723382 /* TypesOfParticipentsDoc.m in Sources */,
+				D5E49C9B1CE92F2000E04F7A /* MasterViewController.m in Sources */,
 				D5BEA6661CE0BEBF00723382 /* TypesOfParticipentsData.m in Sources */,
 				D5BEA62E1CE0BABC00723382 /* main.m in Sources */,
 			);
@@ -504,6 +504,7 @@
 				D5BEA6511CE0BABC00723382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5BEA6521CE0BABC00723382 /* Build configuration list for PBXNativeTarget "CalorieIntakeTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +513,7 @@
 				D5BEA6541CE0BABC00723382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
