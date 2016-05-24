@@ -38,4 +38,76 @@
     [cal setIntValue:index];
 }
 
+- (IBAction)find2:(id)sender {
+    int indexOfHour = [hours indexOfSelectedItem];
+    int indexOfLevel = [intensity indexOfSelectedItem];
+    
+    double bcalories = 0;
+    
+    int min30 = 200;
+    int between1and2 = 500;
+    int more2 = 800;
+    
+    double casual = 0.5;
+    double moderate = 1;
+    double intense = 1.5;
+    
+    if(indexOfHour == 0)
+    {
+        if(indexOfLevel == 0)
+        {
+            bcalories = min30 * casual;
+        }
+        
+        if(indexOfLevel == 1)
+        {
+            bcalories = min30 * moderate;
+        }
+        
+        if(indexOfLevel == 2)
+        {
+            bcalories = min30 * intense;
+        }
+    }
+    
+    if(indexOfHour == 1)
+    {
+        if(indexOfLevel == 0)
+        {
+            bcalories = between1and2 * casual;
+        }
+        
+        if(indexOfLevel == 1)
+        {
+            bcalories = between1and2 * moderate;
+        }
+        
+        if(indexOfLevel == 2)
+        {
+            bcalories = between1and2 * intense;
+        }
+    }
+
+    if(indexOfHour == 2)
+    {
+        if(indexOfLevel == 0)
+        {
+            bcalories = more2 * casual;
+        }
+        
+        if(indexOfLevel == 1)
+        {
+            bcalories = more2 * moderate;
+        }
+        
+        if(indexOfLevel == 2)
+        {
+            bcalories = more2 * intense;
+        }
+    }
+    
+    [calBurned setDoubleValue:bcalories];
+}
+
+
 @end

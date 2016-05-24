@@ -657,7 +657,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button verticalHuggingPriority="750" id="533">
-                        <rect key="frame" x="404" y="111" width="169" height="32"/>
+                        <rect key="frame" x="365" y="135" width="169" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Calculate" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="534">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -749,7 +749,7 @@ DQ
                         </connections>
                     </popUpButton>
                     <button verticalHuggingPriority="750" id="JAP-HS-iUm">
-                        <rect key="frame" x="426" y="277" width="41" height="25"/>
+                        <rect key="frame" x="380" y="277" width="41" height="25"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="roundTextured" title="Find" bezelStyle="texturedRounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gRp-6h-WNY">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -813,6 +813,83 @@ DQ
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="9oU-jW-HfE">
+                        <rect key="frame" x="41" y="78" width="151" height="43"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Hours worked out daily" id="r1b-wQ-S3Z">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <popUpButton verticalHuggingPriority="750" id="mfr-tS-8Np">
+                        <rect key="frame" x="223" y="57" width="101" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <popUpButtonCell key="cell" type="push" title="Moderate" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="tBv-41-HWV" id="Apt-8F-RS6">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="menu"/>
+                            <menu key="menu" title="OtherViews" id="t83-UN-IEA">
+                                <items>
+                                    <menuItem title="Casual" id="wBg-Ha-1sJ"/>
+                                    <menuItem title="Moderate" state="on" id="tBv-41-HWV"/>
+                                    <menuItem title="Intensive" id="cZo-pM-0lm"/>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                    </popUpButton>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="o1T-wq-Cp4">
+                        <rect key="frame" x="223" y="87" width="113" height="34"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Level of intensity" id="U9S-C2-nYL">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" id="N3N-nq-Thv">
+                        <rect key="frame" x="368" y="59" width="96" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="M0g-ic-MRk">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="ltu-iz-TJo">
+                        <rect key="frame" x="366" y="87" width="103" height="34"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Calories Burned" id="vYO-Ps-2kb">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" id="lWV-oR-Yhh">
+                        <rect key="frame" x="485" y="53" width="67" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Find" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xhP-Xt-HUT">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="find2:" target="556" id="MJ8-Ue-oLA"/>
+                        </connections>
+                    </button>
+                    <popUpButton verticalHuggingPriority="750" id="0pk-Bg-ExL">
+                        <rect key="frame" x="41" y="55" width="152" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <popUpButtonCell key="cell" type="push" title="Less than 30 minutes" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="o69-uD-jFD" id="gqh-US-nyb">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <menu key="menu" title="OtherViews" id="r0i-Ot-UmN">
+                                <items>
+                                    <menuItem title="Less than 30 minutes" state="on" id="o69-uD-jFD"/>
+                                    <menuItem title="1-2 hours" id="rIX-JK-P5F"/>
+                                    <menuItem title="2 hours or more " id="yJv-i0-Qat"/>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                    </popUpButton>
                 </subviews>
             </view>
         </window>
@@ -824,12 +901,17 @@ DQ
         <customObject id="420" customClass="NSFontManager"/>
         <customObject id="556" customClass="SimpleController">
             <connections>
+                <outlet property="Find2" destination="lWV-oR-Yhh" id="9Dj-eX-DHt"/>
                 <outlet property="answer" destination="539" id="559"/>
                 <outlet property="cal" destination="Vhq-W8-FS3" id="dnR-Li-W1y"/>
+                <outlet property="calBurned" destination="N3N-nq-Thv" id="fEO-8i-fxD"/>
+                <outlet property="hours" destination="0pk-Bg-ExL" id="Yv0-tp-WrG"/>
+                <outlet property="intensity" destination="mfr-tS-8Np" id="f56-fV-S6g"/>
                 <outlet property="numOne" destination="535" id="557"/>
                 <outlet property="numTwo" destination="537" id="558"/>
                 <outlet property="popUp" destination="aP5-RH-ech" id="h8t-v2-9Qm"/>
             </connections>
         </customObject>
+        <menuItem title="1-2 hours" keyEquivalent="s" id="0v3-7o-8eR"/>
     </objects>
 </document>
