@@ -13,6 +13,7 @@
 {
     int result = [numOne intValue] - [numTwo intValue];
     [answer setIntValue:result];
+    //main 
 }
 
 - (IBAction)Find:(id)sender {
