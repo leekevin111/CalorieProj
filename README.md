@@ -7,3 +7,11 @@ Next : Once they click on their catagory, they will be lead to input their calor
 Edit : May 15th - Added basic calorie needs for each individual and started to create a basic skeleton to add more inforemation. 
 
 Edit : May 24th revamped all my code and the app is now functional and is barebone.
+
+Edit : June 1st
+Overall a more visual and helpful experience with the app.
+- Created a main menu that includes a Title, Image Slots, Help Button (for sources), and a start button.
+- To the calculator : added basic types of foods (Protein, Fats, Carbs) 
+- User looks at common foods and inputs grams of each
+- Calculates rough amount of Calories from food
+- User incorporates this into overall calculator
