@@ -17,7 +17,7 @@ Overall a more visual and helpful experience with the app.
 - User incorporates this into overall calculator
 
 Edit : June 7th
-- More age groups for visility
+- More age groups for versitility
 - More consistency throughout the app
 - tabs instead of one view for cleaner look
 - instructions and explanation added
