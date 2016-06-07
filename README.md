@@ -15,3 +15,9 @@ Overall a more visual and helpful experience with the app.
 - User looks at common foods and inputs grams of each
 - Calculates rough amount of Calories from food
 - User incorporates this into overall calculator
+
+Edit : June 7th
+- More age groups for visility
+- More consistency throughout the app
+- tabs instead of one view for cleaner look
+- instructions and explanation added
