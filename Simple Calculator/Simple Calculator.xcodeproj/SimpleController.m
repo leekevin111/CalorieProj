@@ -109,6 +109,6 @@
     
     [calBurned setDoubleValue:bcalories];
 }
-
+//levels of intensity
 
 @end

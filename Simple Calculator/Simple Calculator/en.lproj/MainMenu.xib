@@ -733,14 +733,14 @@ DQ
                     <popUpButton verticalHuggingPriority="750" id="aP5-RH-ech">
                         <rect key="frame" x="41" y="291" width="101" height="26"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <popUpButtonCell key="cell" type="push" title="Child" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="v6U-bw-MYv" id="Yao-vj-brI">
+                        <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="Yao-vj-brI">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="menu"/>
                             <menu key="menu" title="OtherViews" id="4dh-BH-W7c">
                                 <items>
                                     <menuItem title="Adult" id="Vlg-1f-CPc"/>
                                     <menuItem title="Teenager" id="YTr-Ys-usy"/>
-                                    <menuItem title="Child" state="on" id="v6U-bw-MYv"/>
+                                    <menuItem title="Child" id="v6U-bw-MYv"/>
                                 </items>
                             </menu>
                         </popUpButtonCell>
@@ -1049,7 +1049,7 @@ DQ
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="roundRect" title="Click here to Start" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="i0w-DY-kX1">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="controlContent"/>
+                            <font key="font" metaFont="cellTitle"/>
                         </buttonCell>
                         <connections>
                             <action selector="orderFront:" target="371" id="dmQ-f8-YUR"/>
@@ -1106,7 +1106,7 @@ DQ
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" id="zI6-Gs-kf8">
                             <font key="font" metaFont="system"/>
-                            <mutableString key="title">Sources for the Information and Statistics used                               1.                                                                      2.                                                                                                               3.                                                                                                               4.                                                                                                               5.                                         </mutableString>
+                            <string key="title">Sources for the Information and Statistics used                               1.                                                                      2.                                                                                                               3.                                                                                                               4.                                                                                                               5.                                         </string>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -1114,5 +1114,24 @@ DQ
                 </subviews>
             </view>
         </window>
+        <tabView id="huO-Pp-woA">
+            <rect key="frame" x="0.0" y="0.0" width="508" height="321"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <font key="font" metaFont="system"/>
+            <tabViewItems>
+                <tabViewItem label="View 1" identifier="1" id="7Z8-Wv-KDf">
+                    <view key="view" id="3po-Rg-K8F">
+                        <rect key="frame" x="10" y="33" width="488" height="275"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </tabViewItem>
+                <tabViewItem label="View 2" identifier="2" id="OAO-zi-EoN">
+                    <view key="view" id="JjN-qv-3h3">
+                        <rect key="frame" x="10" y="33" width="488" height="275"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </tabViewItem>
+            </tabViewItems>
+        </tabView>
     </objects>
 </document>

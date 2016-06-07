@@ -25,6 +25,7 @@
 - (IBAction)Calculate:(id)sender;
 - (IBAction)Find:(id)sender;
 - (IBAction)find2:(id)sender;
+//id senders for calculators
 
 
 @end
